@@ -1,0 +1,48 @@
+.services-container {
+  text-align: center;
+  padding: 80px 60px;
+  background-color: #fafafa;
+}
+
+.services-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #0b1020;
+  margin-bottom: 15px;
+}
+
+.services-intro {
+  max-width: 900px;
+  margin: 0 auto 40px auto;
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.icon-display {
+  margin: 20px auto;
+}
+
+.fashion-icon {
+  font-size: 60px;
+  color: #ff0048;
+  animation: glow 3s infinite alternate;
+}
+
+@keyframes glow {
+  0% { text-shadow: 0 0 10px #ff0048; }
+  100% { text-shadow: 0 0 25px #ff99b8; }
+}
+
+.card-row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.c{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+}
